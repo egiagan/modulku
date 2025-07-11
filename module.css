@@ -1,0 +1,111 @@
+
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* Menghilangkan panah default pada input number */
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        /* Styling untuk placeholder */
+        ::placeholder {
+            color: #94a3b8;
+            opacity: 1;
+        }
+
+        /* Custom scrollbar styling */
+        .custom-scrollbar::-webkit-scrollbar { width: 8px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        
+        /* Styling untuk output yang lebih rapi dengan warna Google */
+        .prose-output h1.google-gradient {
+            background: linear-gradient(90deg, #4285F4, #34A853, #FBBC05, #EA4335);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        .prose-output h2 { margin-top: 1.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid; font-size: 1.25rem; font-weight: 700; color: #34A853; /* Green */}
+        .prose-output h3 { margin-top: 1.5rem; margin-bottom: 0.75rem; font-size: 1.125rem; font-weight: 700; color: #4285F4; /* Blue */ }
+        .prose-output h4 { margin-top: 1.25rem; margin-bottom: 0.5rem; font-size: 1rem; font-weight: 600; color: #EA4335; /* Red */ }
+        .prose-output h5 { margin-top: 1rem; margin-bottom: 0.5rem; font-size: 0.875rem; font-weight: 600; color: #FBBC05; /* Yellow */ }
+        .prose-output p { margin-bottom: 0.75rem; line-height: 1.6; }
+        .prose-output ul li::marker { color: #4285F4; }
+        .prose-output ol li::marker { color: #34A853; }
+        .prose-output li { margin-bottom: 0.5rem; padding-left: 0.5rem; }
+        .prose-output table { width: 100%; border-collapse: collapse; margin-top: 1rem; margin-bottom: 1rem; }
+        .prose-output th, .prose-output td { border: 1px solid #cbd5e1; padding: 0.75rem; text-align: left; vertical-align: top; }
+        .prose-output th { background-color: #f1f5f9; font-weight: 600; }
+        
+        /* PERBAIKAN: Melebarkan kolom pertama pada tabel alur belajar & rubrik */
+        .prose-output table.alur-belajar-table th:first-child,
+        .prose-output table.rubrik-penilaian-table th:first-child {
+            width: 1%;
+            white-space: nowrap;
+        }
+
+        /* Styling untuk label prinsip pembelajaran */
+        .learning-principle {
+            display: inline-block;
+            padding: 0.1rem 0.6rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            border-radius: 9999px;
+            margin-left: 0.25rem;
+            vertical-align: middle;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .principle-joyful { background-color: #fef3c7; color: #b45309; border: 1px solid #fde68a; }
+        .principle-meaningful { background-color: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+        .principle-mindful { background-color: #ede9fe; color: #6d28d9; border: 1px solid #ddd6fe; }
+        
+        /* Gradient Border Box Styles */
+        .gradient-border-box {
+            border-radius: 1rem;
+            padding: 2px; /* Lebar border gradien */
+            background: linear-gradient(135deg, #4285F4, #EA4335, #FBBC05, #34A853);
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .gradient-border-box > div {
+            background-color: #ffffff;
+            border-radius: 14px; /* (parent border-radius) - (padding) */
+            padding: 1.5rem;
+        }
+
+        /* Styling untuk judul bagian dengan gradien */
+        .gradient-title {
+            background: linear-gradient(90deg, #4f46e5, #a855f7); /* Gradien dari indigo ke ungu */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            font-weight: 800; /* Extra bold */
+        }
+
+        /* Print-specific styles */
+        @media print {
+            body { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; background: white !important; }
+            .no-print { display: none !important; }
+            html, body, .container, .output-container, .module-render-area { margin: 0 !important; padding: 0 !important; box-shadow: none !important; border: none !important; background: white !important; color: black !important; }
+            .output-content { max-height: none !important; overflow: visible !important; padding: 0 !important; }
+            .gradient-border-box, .lampiran-box { background: none !important; padding: 0 !important; border: 1px solid #ddd !important; border-radius: 1rem !important; margin-bottom: 1rem !important; box-shadow: none !important; }
+            .gradient-border-box > div, .lampiran-box > div { padding: 1rem !important; }
+            .prose-output h1, .prose-output h2, .prose-output h3, .prose-output h4, .prose-output h5 { page-break-after: avoid !important; color: black !important; }
+            .prose-output table, .prose-output ul, .prose-output ol, .prose-output li, .prose-output p, .signature-section { page-break-inside: avoid !important; }
+            .page-break-after { page-break-after: always !important; }
+            .gradient-title { background: none !important; -webkit-text-fill-color: initial !important; text-fill-color: initial !important; color: #1e3a8a !important; /* Fallback color */ }
+            .learning-principle { border: 1px solid #ccc !important; color: black !important; background-color: #f0f0f0 !important; }
+        }
+    
