@@ -2,9 +2,9 @@
         // --- 1. CONFIGURATION & STATE ---
         const config = {
             GEMINI_API_KEYS: [
-            "AIzaSyC5hbODZv2dhTW5DCQZ9kKBD-7SoePFu0E", // Kunci API Anda
-            "AIzaSyCyUWKHOj0UZohe0f03UYqwYKmdTHyEK3o", // Kunci API cadangan 1
-                "AIzaSyDbhaB4GuyqkdTyK4LNM-QD-5AhQ30xK1U", Kunci API cadangan 2
+             "AIzaSyCyUWKHOj0UZohe0f03UYqwYKmdTHyEK3o",// Kunci API Anda
+             "AIzaSyC5hbODZv2dhTW5DCQZ9kKBD-7SoePFu0E", // Kunci API cadangan 1
+                "AIzaSyDbhaB4GuyqkdTyK4LNM-QD-5AhQ30xK1U", // Kunci API cadangan 2
                 "AIzaSyA3GnD0nmKNIZdw9MRUGNJzQqNzu8GTZ54", // Kunci API cadangan 3
                 "AIzaSyCqpYPGQyXPU0OLiFKNCwh7tL8rsuWNNb4", // Kunci API cadangan 4
 
