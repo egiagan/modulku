@@ -1,5 +1,6 @@
 // products.js
 // This file contains the default product data and functions to manage it in localStorage.
+
 // Default product data - used if no data is found in localStorage
 const defaultProducts = [
     {
