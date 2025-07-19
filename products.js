@@ -26,7 +26,7 @@ const defaultProducts = [
             'Edukator & pelajar AI'
         ],
         note: 'Buktikan sendiri bagaimana Chat GPT Team ini bisa membantu',
-        categories: ['Unggulan', 'Produk Digital'] // Added categories
+        categories: ['Unggulan', 'Produk Digital']
     },
     {
         id: 'digicuan-mastery',
@@ -51,7 +51,7 @@ const defaultProducts = [
             'Edukator & pelajar AI'
         ],
         note: 'DigiCuan Mastery bukan sekadar ebook, tapi pintu masukmu dunia digital penuh peluang. Dengan ebook ini, kamu tidak hanya mendapatkan ide & prompt, kamu jadi sumber penghasilan digital yang lebih besar. Bangun aset digitalmu hari ini, Belajar, Praktik, Cuan.',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'corita-digicuan',
@@ -64,7 +64,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'modul-juta-pertama',
@@ -77,7 +77,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus'] // Added categories
+        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus']
     },
     {
         id: 'prompt-mastery',
@@ -90,7 +90,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus'] // Added categories
+        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus']
     },
     {
         id: 'tips-aset-ai',
@@ -103,7 +103,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Template & Desain', 'Produk Digital'] // Added categories
+        categories: ['Template & Desain', 'Produk Digital']
     },
     {
         id: 'paket-terampil',
@@ -116,7 +116,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Unggulan', 'Produk Digital'] // Added categories
+        categories: ['Unggulan', 'Produk Digital']
     },
     {
         id: 'bundling-wordpress',
@@ -129,7 +129,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'template-flashcard',
@@ -142,7 +142,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital', 'Template & Desain'] // Added categories
+        categories: ['Produk Digital', 'Template & Desain']
     },
     {
         id: 'buku-induk-siswa',
@@ -155,7 +155,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'modul-ajar-cp',
@@ -168,7 +168,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'aktivitas-kreatif',
@@ -181,7 +181,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Produk Digital'] // Added categories
+        categories: ['Produk Digital']
     },
     {
         id: 'template-buku-tulis',
@@ -194,7 +194,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: 'Ini cocok banget buat kamu yang suka desain!',
-        categories: ['Template & Desain'] // Added categories
+        categories: ['Template & Desain']
     },
     {
         id: 'ebook-desain-grafis',
@@ -207,7 +207,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Template & Desain', 'Produk Digital'] // Added categories
+        categories: ['Template & Desain', 'Produk Digital']
     },
     {
         id: 'pendampingan-ppg',
@@ -220,7 +220,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Pendampingan & Kursus'] // Added categories
+        categories: ['Pendampingan & Kursus']
     },
     {
         id: 'desain-medsos',
@@ -233,7 +233,7 @@ const defaultProducts = [
         whatYouWillLearn: [],
         bonus: [],
         note: '',
-        categories: ['Pendampingan & Kursus', 'Template & Desain'] // Added categories
+        categories: ['Pendampingan & Kursus', 'Template & Desain']
     },
     {
         id: 'printable-hijaiyyah',
@@ -251,7 +251,7 @@ const defaultProducts = [
         ],
         bonus: [],
         note: 'Cocok untuk anak usia 2-5 Tahun (PRESCHOOL)',
-        categories: ['Produk Digital', 'Template & Desain'] // Added categories
+        categories: ['Produk Digital', 'Template & Desain']
     }
 ];
 
