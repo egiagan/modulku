@@ -25,7 +25,8 @@ const defaultProducts = [
             'Freelancers & agensi kecil',
             'Edukator & pelajar AI'
         ],
-        note: 'Buktikan sendiri bagaimana Chat GPT Team ini bisa membantu'
+        note: 'Buktikan sendiri bagaimana Chat GPT Team ini bisa membantu',
+        categories: ['Unggulan', 'Produk Digital'] // Added categories
     },
     {
         id: 'digicuan-mastery',
@@ -49,7 +50,8 @@ const defaultProducts = [
             'Freelancers & agensi kecil',
             'Edukator & pelajar AI'
         ],
-        note: 'DigiCuan Mastery bukan sekadar ebook, tapi pintu masukmu dunia digital penuh peluang. Dengan ebook ini, kamu tidak hanya mendapatkan ide & prompt, kamu jadi sumber penghasilan digital yang lebih besar. Bangun aset digitalmu hari ini, Belajar, Praktik, Cuan.'
+        note: 'DigiCuan Mastery bukan sekadar ebook, tapi pintu masukmu dunia digital penuh peluang. Dengan ebook ini, kamu tidak hanya mendapatkan ide & prompt, kamu jadi sumber penghasilan digital yang lebih besar. Bangun aset digitalmu hari ini, Belajar, Praktik, Cuan.',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'corita-digicuan',
@@ -61,7 +63,8 @@ const defaultProducts = [
         description: 'Dapatkan akses ke kisah sukses dan pengalaman dari para kreator AI terkemuka. Pelajari strategi dan tips langsung dari mereka yang telah berhasil di dunia AI.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'modul-juta-pertama',
@@ -73,7 +76,8 @@ const defaultProducts = [
         description: 'Pelajari langkah demi langkah untuk menghasilkan satu juta pertama Anda dengan menjual produk prompt AI. Modul ini mencakup identifikasi pasar, pembuatan prompt yang efektif, dan strategi penjualan.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus'] // Added categories
     },
     {
         id: 'prompt-mastery',
@@ -85,7 +89,8 @@ const defaultProducts = [
         description: 'Panduan lengkap untuk pemula tentang prompt engineering. Pelajari cara membuat prompt yang efektif untuk berbagai model AI dan mendapatkan hasil yang Anda inginkan.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Unggulan', 'Produk Digital', 'Pendampingan & Kursus'] // Added categories
     },
     {
         id: 'tips-aset-ai',
@@ -97,7 +102,8 @@ const defaultProducts = [
         description: 'Dapatkan tips dan trik untuk membuat aset AI yang berharga dan pelajari cara memanfaatkan Adobe Stock untuk menjual karya Anda. Tingkatkan potensi penghasilan Anda dengan aset digital.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Template & Desain', 'Produk Digital'] // Added categories
     },
     {
         id: 'paket-terampil',
@@ -109,7 +115,8 @@ const defaultProducts = [
         description: 'BEST SELLER! Full package diskon 200rb!',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Unggulan', 'Produk Digital'] // Added categories
     },
     {
         id: 'bundling-wordpress',
@@ -121,7 +128,8 @@ const defaultProducts = [
         description: 'Materi WordPress lengkap untuk semua tingkatan.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'template-flashcard',
@@ -133,7 +141,8 @@ const defaultProducts = [
         description: 'Kumpulan template flashcard yang siap pakai untuk berbagai keperluan edukasi.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital', 'Template & Desain'] // Added categories
     },
     {
         id: 'buku-induk-siswa',
@@ -145,7 +154,8 @@ const defaultProducts = [
         description: 'Buku induk siswa terbaru untuk SMA/SMK.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'modul-ajar-cp',
@@ -157,7 +167,8 @@ const defaultProducts = [
         description: 'Perangkat ajar lengkap untuk guru SMA/MA/SMK.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'aktivitas-kreatif',
@@ -169,7 +180,8 @@ const defaultProducts = [
         description: '24 ide aktivitas kreatif untuk pembelajaran yang interaktif.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Produk Digital'] // Added categories
     },
     {
         id: 'template-buku-tulis',
@@ -181,7 +193,8 @@ const defaultProducts = [
         description: 'Kumpulan template buku tulis dan desain yang menarik.',
         whatYouWillLearn: [],
         bonus: [],
-        note: 'Ini cocok banget buat kamu yang suka desain!'
+        note: 'Ini cocok banget buat kamu yang suka desain!',
+        categories: ['Template & Desain'] // Added categories
     },
     {
         id: 'ebook-desain-grafis',
@@ -193,7 +206,8 @@ const defaultProducts = [
         description: 'Pelajari rahasia desain grafis profesional hanya dengan Canva.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Template & Desain', 'Produk Digital'] // Added categories
     },
     {
         id: 'pendampingan-ppg',
@@ -205,7 +219,8 @@ const defaultProducts = [
         description: 'Pendampingan khusus untuk guru PPG SMK.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Pendampingan & Kursus'] // Added categories
     },
     {
         id: 'desain-medsos',
@@ -217,7 +232,8 @@ const defaultProducts = [
         description: 'Pelajari cara membuat desain media sosial yang menarik menggunakan Canva dan smartphone.',
         whatYouWillLearn: [],
         bonus: [],
-        note: ''
+        note: '',
+        categories: ['Pendampingan & Kursus', 'Template & Desain'] // Added categories
     },
     {
         id: 'printable-hijaiyyah',
@@ -234,7 +250,8 @@ const defaultProducts = [
             'ADD ON Template Canva otomatis produk menjadi berlisensi PRL (hak jual kembali setelah di edit sesuai brand identitymu minimal 40% dari desain original ByDif)'
         ],
         bonus: [],
-        note: 'Cocok untuk anak usia 2-5 Tahun (PRESCHOOL)'
+        note: 'Cocok untuk anak usia 2-5 Tahun (PRESCHOOL)',
+        categories: ['Produk Digital', 'Template & Desain'] // Added categories
     }
 ];
 
@@ -258,15 +275,6 @@ window.loadProductsFromLocalStorage = function() {
     }
 }
 
-// Initial load when the script is first executed
-document.addEventListener('DOMContentLoaded', () => {
-    window.loadProductsFromLocalStorage();
-    // Check if initializeHomePage is defined (for index.html)
-    if (typeof window.initializeHomePage === 'function') {
-        window.initializeHomePage();
-    }
-    // Check if initializeAdminPage is defined (for admin.html)
-    if (typeof window.initializeAdminPage === 'function') {
-        window.initializeAdminPage();
-    }
-});
+// Initial load when the script is first executed.
+// This ensures window.products is populated as soon as products.js is loaded.
+window.loadProductsFromLocalStorage();
