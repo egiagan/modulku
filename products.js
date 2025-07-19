@@ -185,7 +185,7 @@ const defaultProducts = [
     },
     {
         id: 'template-buku-tulis',
-        image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyv150e7RLv-JF8Zms6sol_ML69LLp63RujyTgQhO5hmeD4gRjN5kzm11cCT7AbDU6WYH3IcCWNG2mVxUIGTrKBUDNyzroEUGwLUmE4YKhS1eHcEGY3CHokYb0AVS8c8v8L3RaLBmNZNJ_VfWma3NUSMonjx7q8DgUITALYi8dTwPY7COUDGoB1jQNJHk/s1600/Screenshot_37.png',
+        image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyv150e7RLv-JF8Zms6sol_ML69LLp63RujyTgQhO5hmeD4gRjN5kzm11cCT7AbDU6WYH3IcCWNG2mVxUIGTrKBUDNyzroEUGwLUmE4YKhS1eHcEGY3CHokYb0AVS1eHcEGY3CHokYb0AVS8c8v8L3RaLBmNZNJ_VfWma3NUSMonjx7q8DgUITALYi8dTwPY7COUDGoB1jQNJHk/s1600/Screenshot_37.png',
         title: 'Contoh Nama Produk Digital 13',
         price: 20000,
         originalPrice: 0,
@@ -237,7 +237,7 @@ const defaultProducts = [
     },
     {
         id: 'printable-hijaiyyah',
-        image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyv150e7RLv-JF8Zms6sol_ML69LLp63RujyTgQhO5hmeD4gRjN5kzm11cCT7AbDU6WYH3IcCWNG2mVxUIGTrKBUDNyzroEUGwLUmE4YKhS1eHcEGY3CHokYb0AVS8c8v8L3RaLBmNZNJ_VfWma3NUSMonjx7q8DgUITALYi8dTwPY7COUDGoB1jQNJHk/s1600/Screenshot_37.png',
+        image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyv150e7RLv-JF8Zms6sol_ML69LLp63RujyTgQhO5hmeD4gRjN5kzm11cCT7AbDU6WYH3IcCWNG2mVxUIGTrKBUDNyzroEUGwLUmE4YKhS1eHcEGY3CHokYb0AVS1eHcEGY3CHokYb0AVS8c8v8L3RaLBmNZNJ_VfWma3NUSMonjx7q8DgUITALYi8dTwPY7COUDGoB1jQNJHk/s1600/Screenshot_37.png',
         title: 'Contoh Nama Produk Digital 17',
         price: 29000,
         originalPrice: 75000,
