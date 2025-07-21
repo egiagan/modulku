@@ -1,6 +1,6 @@
 {
     "name": "DigiCuan",
-    "short_name": "DigiCuan",
+    "short_name": "GURUKU",
     "description": "Platform penjualan produk digital",
     "start_url": "./produk.html",
     "display": "standalone",
